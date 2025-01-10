@@ -124,8 +124,7 @@ class _HomeState extends State<Home> {
         Row(
           children: [
             ThemeToggleRow(),
-            const SizedBox(width: 10),
-
+            const SizedBox(width: 5),
             IconButton(
               onPressed: () => authViewModel.logout(context),
               icon: const Icon(Icons.logout),

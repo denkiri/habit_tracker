@@ -58,25 +58,28 @@ class _DetailState extends State<Detail> {
         Icon(
           Icons.alarm,
           size: 14,
+          color: Colors.white,
         ),
         SizedBox(width: 5),
         Text(
           MaterialLocalizations.of(context)
               .formatTimeOfDay(habit.timeOfDay!, alwaysUse24HourFormat: false),
-          style: TextStyle(fontSize: 14),
+          style: TextStyle(fontSize: 14, color: Colors.white),
         ),
         SizedBox(width: 5),
         Icon(
           Icons.replay,
           size: 14,
+          color: Colors.white,
         ),
         SizedBox(width: 5),
         Text(
           dayString.length == 7 ? 'Everyday' : dayString.join(', '),
-          style: TextStyle(fontSize: 14),
+          style: TextStyle(fontSize: 14, color: Colors.white),
         ),
       ],
     );
+
   }
   Widget _stats(BuildContext context, Habit habit) {
     return Container(
