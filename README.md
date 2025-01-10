@@ -48,6 +48,7 @@ Follow these instructions to set up the Habit Tracker project locally for develo
    ```bash
    git clone https://github.com/denkiri/habit_tracker
    cd HabitTracker
+   ```
    ## Running and Building the App
 
 You can run and build the app on Android, iOS, or Web platforms. Follow the steps below based on your target platform.
