@@ -22,6 +22,11 @@ Habit Tracker is a cross-platform Flutter application designed to help users bui
 - **Progress Monitoring:** Visualize your habit streaks and progress.
 - **Notifications:** Receive reminders to complete your habits.
 - **Cross-Platform Support:** Available on Android, iOS, and web.
+- 
+## Live Demo
+You can access the live version of the **Habit Tracker** web app here:  
+[Habit Tracker Web App](https://denkiri.github.io/habit_tracker/)
+
 
 ## Platforms
 
