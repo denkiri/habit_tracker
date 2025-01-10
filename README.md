@@ -15,6 +15,8 @@ Habit Tracker is a cross-platform Flutter application designed to help users bui
     - [Workflow Overview](#workflow-overview)
     - [CI Workflow (`ci.yml`)](#ci-workflow-ciyml)
     - [Deploy Web Workflow (`deploy-web.yml`)](#deploy-web-workflow-deploy-webyml)
+- [Live Demo](#live-demo)
+- [Screenshots](#screenshots)
 
 ## Features
 
@@ -22,12 +24,7 @@ Habit Tracker is a cross-platform Flutter application designed to help users bui
 - **Progress Monitoring:** Visualize your habit streaks and progress.
 - **Notifications:** Receive reminders to complete your habits.
 - **Cross-Platform Support:** Available on Android, iOS, and web.
-- 
-## Live Demo
-You can access the live version of the **Habit Tracker** web app here:  
-[Habit Tracker Web App](https://denkiri.github.io/habit_tracker/)
-
-
+  
 ## Platforms
 
 - **Android**
@@ -165,6 +162,26 @@ jobs:
           publish_branch: gh-pages
 ```
 - Builds and deploys the web version of the app to GitHub Pages.
+  
+## Live Demo
+You can access the live version of the **Habit Tracker** web app here:  
+[Habit Tracker Web App](https://denkiri.github.io/habit_tracker/)
+
+## Screenshots
+
+Below are screenshots showcasing the app's user interface on mobile and web platforms:
+
+### Mobile App
+
+<div style="display: flex; gap: 10px;">
+    <img src="https://github.com/denkiri/habit_tracker/blob/master/screenshots/mobile1.png" alt="Mobile Screenshot 1" width="300">
+    <img src="https://github.com/denkiri/habit_tracker/blob/master/screenshots/mobile2.png" alt="Mobile Screenshot 2" width="300">
+</div>
+
+### Web App
+
+![Web Screenshot 1](https://github.com/denkiri/habit_tracker/blob/master/screenshots/web1.png)
+![Web Screenshot 2](https://github.com/denkiri/habit_tracker/blob/master/screenshots/web2.png)
 
 
 
